@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DNA.Data\DNA.Data.csproj" />
+    <ProjectReference Include="..\..\DNA.Domain\DNA.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="AutoMapper" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+</Project>
